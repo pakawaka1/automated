@@ -1,0 +1,9 @@
+section.contact-form-wrapper {
+    width: 100%;
+}
+
+section.contact-form-wrapper iframe {
+    width: 35%;
+    height: 400px;
+    
+}    

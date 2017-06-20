@@ -1,0 +1,146 @@
+/*Fonts begin*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Gudea');
+/*Fonts end*/
+
+/*Universals begin*/
+* {
+box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a, h1 {
+    font-family: Raleway;
+}
+
+p {
+    font-family: Gudea;
+    text-align: justify;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.block {
+    display: block;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+/*Universals end*/
+
+/*Heading Section Begins*/
+.nav-container {
+    border-bottom: 2px red solid;
+    font-family: comic;
+    font-weight: 500;
+
+}
+
+.logo {
+    display: inline-block;
+    color: red;
+    font-weight: 300;
+}
+
+.nav-items {
+    margin: 0;
+    text-align: right;
+}
+
+.nav-items .listed-nav_item {
+    display: inline-block;
+}
+
+.nav-items .listed-nav_item a {
+    padding: 15px;
+    color: #008175;
+    font-weight: 300;
+}
+/*Heading Section Ends*/
+
+/*Hero Section Begins*/
+.hero {
+    height: 450px;
+    background-image: url("../img/yosemite122.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 20%;
+}
+/*Hero Section Ends*/
+
+/*Column Section Begins*/
+.column {
+    height: 250px;
+    width: 33%;
+    float: left;
+    text-align: center;
+    position: relative;
+    padding: 0px 8px;
+    font-size: 14px;
+}
+
+
+#column-1 button {
+    background-color: #fa0000;
+    border: none;
+    padding: 4%;
+    border-radius: 10px;
+    font-size: 20px;
+    a:hover {
+    background-color: yellow;
+}
+}
+
+#column-2 button {
+    background-color: yellow;
+    border: none;
+    padding: 4%;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#column-3 button {
+    background-color: #2E0CE8;
+    border: none;
+    padding: 4%;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#column-1 button:hover, #column-2 button:hover, #column-3 button:hover {
+    background-color:  black;
+}
+/*Column Section ends*/
+
+/*Footer Section begins*/
+footer {
+    
+    height: 120px;
+    background-color: #2F4F4F;
+    color: #fff;
+    clear: both;
+    padding-top: 16px;
+}
+    
+.social-media a {
+    color: #fff;
+}
+
+.social-media a:hover {
+    color: #0000FF;
+}
+
+.social-media i {
+    margin: 0px 12px;
+}
+/*Footer Section ends*>
