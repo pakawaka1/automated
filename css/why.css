@@ -1,0 +1,16 @@
+/*Sidebar Section begins*/
+aside {
+    box-sizing: border-box;
+    height: 270px;
+    width: 20%;
+    border: 4px double black;
+}
+
+main {
+    width: 60%;
+    height: 400px;
+    float: right;
+    overflow: auto;
+    padding: 0px 1px;
+    box-sizing: border-box;
+}

@@ -1,9 +1,25 @@
+section.map-wrapper {
+    width: 51%;
+    height: 700px;
+}   
+
 section.contact-form-wrapper {
-    width: 100%;
+    width:  47%;
+    height: 700px;
 }
 
-section.contact-form-wrapper iframe {
-    width: 35%;
-    height: 400px;
-    
-}    
+address {
+    font-family: comic, sans-serif;
+    font-style: : normal;
+    text-align: center;
+}
+
+.map-wrapper iframe {
+    width: 100%;
+    height: 610px;
+}
+
+.contact-form-wrapper iframe {
+    width: 100%;
+    height: 800px;
+}
