@@ -16,6 +16,7 @@ a {
 a, h1 {
     font-family: Raleway;
     text-align: center;
+    font-size: 20px;
 }
 
 h2, h3 {
@@ -92,32 +93,27 @@ p {
     text-align: center;
     position: relative;
     padding: 0px 8px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 
 #column-1 button {
-    background-color: #fa0000;
-    border: none;
+    border-color: #585858;
     padding: 4%;
     border-radius: 10px;
     font-size: 20px;
-    a:hover {
-    background-color: yellow;
 }
 }
 
-#column-2 button {
-    background-color: yellow;
-    border: none;
+#column-2 button {    
+    border-color: #585858;
     padding: 4%;
     border-radius: 10px;
     font-size: 20px;
 }
 
 #column-3 button {
-    background-color: #2E0CE8;
-    border: none;
+    border-color: #585858;
     padding: 4%;
     border-radius: 10px;
     font-size: 20px;
