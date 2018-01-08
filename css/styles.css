@@ -16,7 +16,6 @@ a {
 a, h1 {
     font-family: Raleway;
     text-align: center;
-    font-size: 20px;
 }
 
 h2, h3 {
@@ -93,19 +92,20 @@ p {
     text-align: center;
     position: relative;
     padding: 0px 8px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 
 #column-1 button {
+    background-color: white;
     border-color: #585858;
     padding: 4%;
     border-radius: 10px;
     font-size: 20px;
 }
-}
 
-#column-2 button {    
+#column-2 button {
+    background-color: white;
     border-color: #585858;
     padding: 4%;
     border-radius: 10px;
@@ -113,6 +113,7 @@ p {
 }
 
 #column-3 button {
+    background-color: white;
     border-color: #585858;
     padding: 4%;
     border-radius: 10px;
